@@ -3,8 +3,8 @@ job('ruby-subhash') {
        git('https://github.com/clarsonneur/subhash.git')
     }
     steps {
-        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build_18.sh'))
-        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build_20.sh'))
-        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build_22.sh'))
+        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build-18.sh'))
+        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build-20.sh'))
+        shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build-22.sh'))
     }
 }
