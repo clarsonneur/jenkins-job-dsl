@@ -1,6 +1,6 @@
 job('ruby-subhash') {
     scm {
-       git('https://github.com/clarsonneur/subhash.git')
+       git('https://github.com/forj-oss/rhash.git')
     }
     steps {
         shell(readFileFromWorkspace('jobs_dsl/ruby-subhash/build-18.sh'))
